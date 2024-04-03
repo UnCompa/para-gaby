@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik+Scribble&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-accent1: #ff69b4;
+  --color-accent2: #d33e8d;
+  --color-accent3: #9776ca;
+  --color-accent4: #9888da;
+  --color-accent5: #e07fd5;
+}
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background: var(--color-accent2);
+}
+h1 {
+  font-family: "Rubik Scribble", system-ui;
+  color: white;
+  text-shadow: 0 0 10px var(--color-accent5)
+}
+.card {
+  background: #212121;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0005;
+  text-align: center;
+  width: 50vw;
+}
+.card-links {
+  background: #212121;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0005;
+  width: 50vw;
+  color: white;
+}
+.card-links h2 {
+  text-align: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  list-style: none;
+  padding: 1em;
+  font-size: 1.2rem;
+}
+.info {
+  color: white;
+}
