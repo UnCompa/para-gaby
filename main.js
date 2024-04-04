@@ -1,5 +1,5 @@
 var options = {
-  strings: ["Esta cordialmente invitada para pasar un buen momento - Brandon"], // Texto que se escribirá
+  strings: ["Muchas gracias Gaby la pase super, me encanto escucharla y saber como se a sentido - Brandon"], // Texto que se escribirá
   typeSpeed: 20,
   loop: false, // Establece si quieres que el texto se repita después de escribirlo
   cursorChar: '',
