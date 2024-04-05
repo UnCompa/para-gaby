@@ -13,9 +13,11 @@
 }
 body {
   font-family: "Chakra Petch", sans-serif;
-  background: url("./fondo.jpg");
+  background: url("./fondo.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100%;
 }
 h1 {
   font-family: "Rubik Scribble", system-ui;
@@ -48,6 +50,35 @@ h1 {
   box-shadow: 0 0 15px #0005;
   width: 50vw;
   color: #afafaf;
+}
+@media (max-width: 764px) {
+  .card {
+    background: #212121;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0005;
+    text-align: center;
+    width: 90vw;
+  }
+  .card-links {
+    background: #212121;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0005;
+    width: 90vw;
+    color: white;
+  }
+  .card-links2 {
+    background: #212121;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0005;
+    width: 90vw;
+    color: #afafaf;
+  }
 }
 .card-links h2 {
   text-align: center;
